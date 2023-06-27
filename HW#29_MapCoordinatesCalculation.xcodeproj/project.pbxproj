@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D33490D12A3B5CEF00FC884E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33490D02A3B5CEF00FC884E /* AppDelegate.swift */; };
 		D33490D32A3B5CEF00FC884E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33490D22A3B5CEF00FC884E /* SceneDelegate.swift */; };
-		D33490D52A3B5CEF00FC884E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33490D42A3B5CEF00FC884E /* ViewController.swift */; };
 		D33490D82A3B5CEF00FC884E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33490D62A3B5CEF00FC884E /* Main.storyboard */; };
 		D33490DA2A3B5CF000FC884E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33490D92A3B5CF000FC884E /* Assets.xcassets */; };
 		D33490DD2A3B5CF000FC884E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33490DB2A3B5CF000FC884E /* LaunchScreen.storyboard */; };
+		D33490E52A3B5D7900FC884E /* MapCoordinatesCalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33490E42A3B5D7900FC884E /* MapCoordinatesCalculationViewController.swift */; };
+		D33490E72A3B5F3A00FC884E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33490E62A3B5F3A00FC884E /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D33490CD2A3B5CEF00FC884E /* HW#29_MapCoordinatesCalculation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW#29_MapCoordinatesCalculation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33490D02A3B5CEF00FC884E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33490D22A3B5CEF00FC884E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D33490D42A3B5CEF00FC884E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D33490D72A3B5CEF00FC884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D33490D92A3B5CF000FC884E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33490DC2A3B5CF000FC884E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33490DE2A3B5CF000FC884E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33490E42A3B5D7900FC884E /* MapCoordinatesCalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCoordinatesCalculationViewController.swift; sourceTree = "<group>"; };
+		D33490E62A3B5F3A00FC884E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				D33490D02A3B5CEF00FC884E /* AppDelegate.swift */,
 				D33490D22A3B5CEF00FC884E /* SceneDelegate.swift */,
-				D33490D42A3B5CEF00FC884E /* ViewController.swift */,
 				D33490D62A3B5CEF00FC884E /* Main.storyboard */,
+				D33490E42A3B5D7900FC884E /* MapCoordinatesCalculationViewController.swift */,
+				D33490E62A3B5F3A00FC884E /* ResultViewController.swift */,
 				D33490D92A3B5CF000FC884E /* Assets.xcassets */,
 				D33490DB2A3B5CF000FC884E /* LaunchScreen.storyboard */,
 				D33490DE2A3B5CF000FC884E /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33490D52A3B5CEF00FC884E /* ViewController.swift in Sources */,
 				D33490D12A3B5CEF00FC884E /* AppDelegate.swift in Sources */,
 				D33490D32A3B5CEF00FC884E /* SceneDelegate.swift in Sources */,
+				D33490E52A3B5D7900FC884E /* MapCoordinatesCalculationViewController.swift in Sources */,
+				D33490E72A3B5F3A00FC884E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
